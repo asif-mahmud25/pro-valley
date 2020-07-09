@@ -1,0 +1,107 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #404040;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+.container{
+    max-width: 40%;
+    margin: 0 auto;
+}
+.square{
+    width: 30%;
+    background: brown;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 20%;
+    transition: background, 0.4s;
+    -moz-transition: background, 0.4s;
+    -webkit-transition: background, 0.4s;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    }
+
+.options{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #404040;
+    font-size: 22px;
+    font-weight: 400;
+    
+    }
+
+.options div{
+    margin: 0 auto;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+.options button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #404040;
+    outline: none;
+    padding-top: 1.4em;
+    transition: all, 0.4s;
+    -moz-transition: all, 0.4s;
+    -webkit-transition: all, 0.4s;
+}
+
+.options button:hover{
+    color: #ff624a;
+} 
+
+  
+#colorDisplay{
+    text-transform: uppercase;
+}
+
+#easy{
+    margin-right: 1em;
+}
+
+.active{
+    border-bottom: 3px solid #ff624a !important;
+}
+
+.space{
+    margin-top: 50px;
+}
+
+
+/* TOP NAV TO GO HOME */
+
+.back-home-nav {
+    height: 60px;
+    background: white;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.nav-text-wrap {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.nav-text-wrap a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.nav-text-wrap a:hover {
+    color: #FF5473;
+}
